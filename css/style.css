@@ -439,7 +439,7 @@ h5 {
 }
 
 b i:last-child {
-    color: #ffbf00 !important;
+    color: #0e7106 !important;
 }
 
 .box-intro h5 {
@@ -447,6 +447,12 @@ b i:last-child {
     text-transform: uppercase;
     color: #999;
     line-height: 1.7
+}
+
+
+
+.box-intro {
+	font-family:微軟正黑體;
 }
 
 
@@ -543,6 +549,11 @@ b i:last-child {
     white-space: nowrap;
     left: 0;
     top: 0;
+}
+
+.box-headline b span {
+    color: #0e7106;
+	font-family:微軟正黑體;
 }
 
 .box-words-wrapper b.is-visible {

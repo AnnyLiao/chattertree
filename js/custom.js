@@ -60,4 +60,6 @@ $(window).load(function () {
             $(this).next("span").removeClass("active");
         }
     });
+	
+	$('#tree, #tree1, #tree2').css('color', '#0e7106');
 });

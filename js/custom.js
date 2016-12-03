@@ -61,5 +61,5 @@ $(window).load(function () {
         }
     });
 	
-	$('#tree, #tree1, #tree2').css('color', '#0e7106');
+	
 });

@@ -440,10 +440,8 @@ h5 {
 }
 
 #tree i:nth-child(4),
-#tree2 i:nth-child(4),
-#tree2 i:nth-child(5),
-#tree2 i:nth-child(6),
-#tree2 i:nth-child(7),
+#tree2 i:nth-child(n+4),
+
 #tree3 i:nth-child(1),
 #tree3 i:nth-child(2) {
 	color: #0e7106 !important;

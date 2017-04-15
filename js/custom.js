@@ -62,4 +62,15 @@ $(window).load(function () {
     });
 	
 	
+	var href = $(location).attr('href').split('/'),
+		current = href[href.length - 1];
+	if(current == 'index.html'){
+		$('#nav').load('nav.html');
+	}else{
+		$('.header').load('nav.html');
+	}
+	
+	
+	
+	
 });

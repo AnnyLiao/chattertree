@@ -49,4 +49,13 @@ jQuery(document).ready(function($){
 			});	
 		}
 	});
+	
+	$(".box-primary-nav a").each(function () {
+		
+		if (this.href == window.location.href) {
+			$(this).addClass("active"); // add active to li of the current link
+			
+		}
+
+	});
 });

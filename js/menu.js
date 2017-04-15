@@ -16,13 +16,18 @@ jQuery(document).ready(function($){
 		    	//if scrolling up...
 		    	if (currentTop > 0 && $('.box-header').hasClass('is-fixed')) {
 		    		$('.box-header').addClass('is-visible');
+					$('.box-logo img').attr("src","img/logo-2.png");
 		    	} else {
 		    		$('.box-header').removeClass('is-visible is-fixed');
+					$('.box-logo img').attr("src","img/LOGO_png_B.png");
 		    	}
 		    } else {
 		    	//if scrolling down...
 		    	$('.box-header').removeClass('is-visible');
-		    	if( currentTop > headerHeight && !$('.box-header').hasClass('is-fixed')) $('.box-header').addClass('is-fixed');
+		    	if( currentTop > headerHeight && !$('.box-header').hasClass('is-fixed')){
+		    		$('.box-header').addClass('is-fixed');
+					$('.box-logo img').attr("src","img/logo-2.png");
+		    	} 
 		    }
 		    this.previousTop = currentTop;
 		});
